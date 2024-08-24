@@ -1,0 +1,99 @@
+/* FlipContainer.module.css */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.inputGroup {
+  margin: 30px 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.imageGroup {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.choiceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.choiceContainer:hover {
+  background: rgb(187, 187, 255);
+}
+
+.choiceContainer.selected {
+  background: rgb(187, 187, 255);
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.choiceTitle {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #aaa;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.innerContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

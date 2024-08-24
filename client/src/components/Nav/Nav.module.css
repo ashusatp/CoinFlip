@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 0 12px;
+  border-radius: 5px;
+}
+
+.accountText {
+  color: white;
+  margin-left: 15px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.balance {
+  margin-left: 15px;
+  color: #61dafb;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #61dafb;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #21a1f1;
+}
+
+.link {
+  color: #61dafb;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 15px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+}
